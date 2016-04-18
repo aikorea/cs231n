@@ -8,8 +8,10 @@ permalink: /understanding-cnn/
 (this page is currently in draft form)
 
 ## Visualizing what ConvNets learn
+## ConvNets이 무엇을 학습하는지의 시각화
 
 Several approaches for understanding and visualizing Convolutional Networks have been developed in the literature, partly as a response the common criticism that the learned features in a Neural Network are not interpretable. In this section we briefly survey some of these approaches and related work.
+학계에서 콘볼루션 네트워크 (Convolution Network)을 이해하고 시각화 하려고 하는 여러가지 시도들이 있었는데, 이는 신경망 네트워크 (Neural Network)를 통해 학습된 특징 (feature) 가 설명력이 없다는 일반적인 비판에 대해 답변을 하기 위함이다. 이번 섹션에는 이와 관련된 접근법과 관련 연구들을 간단하게 알아보고자 한다.
 
 ### Visualizing the activations and first-layer weights
 
