@@ -1592,7 +1592,7 @@ I don't think half of you only has
 
 325
 00:36:15,679 --> 00:36:17,239
- head and the neck
+head and the neck
 
 326
 00:36:17,239 --> 00:36:22,799
@@ -1602,103 +1602,101 @@ I know you're occluded by the row in
 327
 00:36:22,800 --> 00:36:29,680
 front of you and this is the fundamental challenge of the Vision.
-We have ill-post problem to solve
+We have ill-posed problem to solve.
 
 328
-00:36:29,679 --> 00:36:38,118
-nature had that you oppose prob to solve
-because the broadest 3d imagery 2d
+00:36:29,680 --> 00:36:38,118
+Nature had an ill-posed problem to solve
+because the world is 3D, but the imagery on our retina is 2d.
 
 329
 00:36:38,119 --> 00:36:45,210
-nature saw that my first a hard work
-trick we just to ice it did they use one
+Nature solved it by first a hardware trick
+which is two eyes. It didn't use one eye,
 
 330
 00:36:45,210 --> 00:36:49,389
-I but there's gonna be a whole bunch of
-hoes software trick to lurch the
+but then there's gonna be a whole bunch of
+software trick to merge the
 
 331
 00:36:49,389 --> 00:36:53,868
-formation of the two eyes and Aldous so
-the same thing with computer vision we
+information of the two eyes and all this.
+So, the same thing with computer vision.
 
 332
 00:36:53,869 --> 00:36:59,280
-have to solve that too and have tea
-problem and they eventually we have to
+We have to solve that 2.5D problem and eventually we have to
 
 333
 00:36:59,280 --> 00:37:03,180
 put everything together so that we
-actually have a good 3d model of the
+actually have a good 3D model of the world.
 
 334
-00:37:03,179 --> 00:37:08,629
-world why do we have to have a 3d model
-of the world as we have to survive
+00:37:03,180 --> 00:37:08,629
+Why do we have to have a 3d model of the world?
+Because, we have to survive,
 
 335
 00:37:08,630 --> 00:37:15,309
-navigate manipulate the world when I
-shake your hand I really need to know
+navigate, manipulate the world.
+When I shake your hand, I really need to know
 
 336
 00:37:15,309 --> 00:37:16,509
-how do you know
+how to, you know
 
 337
 00:37:16,510 --> 00:37:22,320
-external my hand and grab your heading
-the right way that is a 3d modeling of
+extend out my hand and grab your hand in the right way.
+That is a 3d modeling of the world,
 
 338
 00:37:22,320 --> 00:37:26,000
-the world otherwise I won't be able to
-grab your head in the right way when I
+otherwise I won't be able to
+grab your hand in the right way.
 
 339
 00:37:26,000 --> 00:37:34,219
-pick up a mug the same thing so so
-that's that's that's David Marr's
+When I pick up a mug, the same thing.
+So, that's David Mark's
 
 340
 00:37:34,219 --> 00:37:39,899
-architecture for vision that's a
-high-level abstract architecture it
+architecture for vision.
+It's a high-level abstract architecture.
 
 341
 00:37:39,900 --> 00:37:45,490
-doesn't really inform us exactly what
-kind of mathematical modeling we should
+It doesn't really inform us exactly what
+kind of mathematical modeling we should use.
 
 342
-00:37:45,489 --> 00:37:51,439
-it doesn't inform us of the learning
-procedure and they really does the
+00:37:45,490 --> 00:37:51,439
+It doesn't inform us of the learning
+procedure and they really doesn't inform us the
 
 343
 00:37:51,440 --> 00:37:55,599
 inference procedure which we will
-getting to through the deep learning
+getting to through the deep learning network architecture
 
 344
 00:37:55,599 --> 00:38:02,759
-that word architecture but that's not
-that's the high-level view of important
+but that's the high-level view.
 
 345
 00:38:02,760 --> 00:38:06,250
-it's an important concept to learn
+and it's an important concept to learn in vision.
 
 346
 00:38:06,250 --> 00:38:08,619
-envisioned and we call this the
+and we call this the representaion.
 
 347
 00:38:08,619 --> 00:38:16,859
-representation really important work and
+really important work and
 this is a little bit stuff first trip to
 
 348
