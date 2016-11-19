@@ -1592,7 +1592,7 @@ I don't think half of you only has
 
 325
 00:36:15,679 --> 00:36:17,239
- head and the neck
+head and the neck
 
 326
 00:36:17,239 --> 00:36:22,799
@@ -1602,242 +1602,232 @@ I know you're occluded by the row in
 327
 00:36:22,800 --> 00:36:29,680
 front of you and this is the fundamental challenge of the Vision.
-We have ill-post problem to solve
+We have ill-posed problem to solve.
 
 328
-00:36:29,679 --> 00:36:38,118
-nature had that you oppose prob to solve
-because the broadest 3d imagery 2d
+00:36:29,680 --> 00:36:38,118
+Nature had an ill-posed problem to solve
+because the world is 3D, but the imagery on our retina is 2d.
 
 329
 00:36:38,119 --> 00:36:45,210
-nature saw that my first a hard work
-trick we just to ice it did they use one
+Nature solved it by first a hardware trick
+which is two eyes. It didn't use one eye,
 
 330
 00:36:45,210 --> 00:36:49,389
-I but there's gonna be a whole bunch of
-hoes software trick to lurch the
+but then there's gonna be a whole bunch of
+software trick to merge the
 
 331
 00:36:49,389 --> 00:36:53,868
-formation of the two eyes and Aldous so
-the same thing with computer vision we
+information of the two eyes and all this.
+So, the same thing with computer vision.
 
 332
 00:36:53,869 --> 00:36:59,280
-have to solve that too and have tea
-problem and they eventually we have to
+We have to solve that 2.5D problem and eventually we have to
 
 333
 00:36:59,280 --> 00:37:03,180
 put everything together so that we
-actually have a good 3d model of the
+actually have a good 3D model of the world.
 
 334
-00:37:03,179 --> 00:37:08,629
-world why do we have to have a 3d model
-of the world as we have to survive
+00:37:03,180 --> 00:37:08,629
+Why do we have to have a 3d model of the world?
+Because, we have to survive,
 
 335
 00:37:08,630 --> 00:37:15,309
-navigate manipulate the world when I
-shake your hand I really need to know
+navigate, manipulate the world.
+When I shake your hand, I really need to know
 
 336
 00:37:15,309 --> 00:37:16,509
-how do you know
+how to, you know
 
 337
 00:37:16,510 --> 00:37:22,320
-external my hand and grab your heading
-the right way that is a 3d modeling of
+extend out my hand and grab your hand in the right way.
+That is a 3d modeling of the world,
 
 338
 00:37:22,320 --> 00:37:26,000
-the world otherwise I won't be able to
-grab your head in the right way when I
+otherwise I won't be able to
+grab your hand in the right way.
 
 339
 00:37:26,000 --> 00:37:34,219
-pick up a mug the same thing so so
-that's that's that's David Marr's
+When I pick up a mug, the same thing.
+So, that's David Mark's
 
 340
 00:37:34,219 --> 00:37:39,899
-architecture for vision that's a
-high-level abstract architecture it
+architecture for vision.
+It's a high-level abstract architecture.
 
 341
 00:37:39,900 --> 00:37:45,490
-doesn't really inform us exactly what
-kind of mathematical modeling we should
+It doesn't really inform us exactly what
+kind of mathematical modeling we should use.
 
 342
-00:37:45,489 --> 00:37:51,439
-it doesn't inform us of the learning
-procedure and they really does the
+00:37:45,490 --> 00:37:51,439
+It doesn't inform us of the learning
+procedure and they really doesn't inform us the
 
 343
 00:37:51,440 --> 00:37:55,599
 inference procedure which we will
-getting to through the deep learning
+getting to through the deep learning network architecture
 
 344
 00:37:55,599 --> 00:38:02,759
-that word architecture but that's not
-that's the high-level view of important
+but that's the high-level view.
 
 345
 00:38:02,760 --> 00:38:06,250
-it's an important concept to learn
+and it's an important concept to learn in vision.
 
 346
 00:38:06,250 --> 00:38:08,619
-envisioned and we call this the
+and we call this the representaion.
 
 347
 00:38:08,619 --> 00:38:16,859
-representation really important work and
-this is a little bit stuff first trip to
+Ah, couple of really important work and
+this is a little bit stanford centric to just show you.
 
 348
 00:38:16,860 --> 00:38:25,180
-just show you as soon as they lead out
-this important way of thinking about the
+As soon as David Mark laid out
+this important way of thinking about Vision,
 
 349
-00:38:25,179 --> 00:38:31,879
-first wave of visual recognition
-algorithms went after the 3d model
+00:38:25,180 --> 00:38:31,879
+the first wave of visual recognition
+algorithms went after the 3d model.
 
 350
 00:38:31,880 --> 00:38:38,280
-because that's the goal right like no
-matter how you represent the stages the
+because that's the goal, right?
+like no matter how you represent the stages,
 
 351
 00:38:38,280 --> 00:38:45,519
-goal here is to reconstruct recognized
-object and this is really sensible
+the goal here is to reconstruct 3D model,
+so that we can recognize object and this is really sensible
 
 352
 00:38:45,519 --> 00:38:52,380
-because that's when we go to the world
-and do so both of these to your work
+because that's when we go to the world and do.
+So, both of these two influencial work comes from Palo Alto.
 
 353
 00:38:52,380 --> 00:38:58,829
-comes from Palo Alto one of those from
-sum 41 as far as ROI Sao Tome before was
+One is from Stanford, one is from SRI.
 
 354
 00:38:58,829 --> 00:39:00,440
-a professor at Stanford
+So, Tom Binford was a professor at Stanford AI Lab.
 
 355
 00:39:00,440 --> 00:39:05,760
-I love that he and his two directly
-Brooks proposed 11 of the first
+And he and his student Rodney Brooks proposed one of the first
 
 356
 00:39:05,760 --> 00:39:10,430
-so-called generalized till salu model
-I'm not gonna get into the details but
+so-called generalized cylinder model.
+I'm not gonna get into the details,
 
 357
-00:39:10,429 --> 00:39:17,129
-the idea is that the world is composed
-of simple shapes like
+00:39:10,430 --> 00:39:17,129
+but the idea is that the world is composed of simple shapes like
 
 358
 00:39:17,130 --> 00:39:23,150
-wonders blocks and then any real world
-object is just a combination of these
+cylinders blocks and then any real world
+object is just a combination of these simple shapes
 
 359
 00:39:23,150 --> 00:39:28,340
-simple shapes given the particular
-feeling and go and that was a very
+given the particular viewing angle
+and that was a very
 
 360
 00:39:28,340 --> 00:39:37,970
-influential visual recognition model in
-the seventies and went on to become the
+influential visual recognition model in the seventies
+and Rodney Brooks went on to become the
 
 361
 00:39:37,969 --> 00:39:47,239
-Director of MIT lab and he was also a
-founding member of iRobot company rumba
+director of MIT's AI lab and he was also a
+founding member of iRobot company Roomba and all this.
 
 362
 00:39:47,239 --> 00:39:51,379
-and all this so so he continued the very
-influential
+So, he continued very influential AI work.
 
 363
 00:39:51,380 --> 00:39:56,930
-I work and nobody interesting model
-coming from local
+Another interesting model coming from local Stanford Research Institute,
 
 364
 00:39:56,929 --> 00:40:05,009
-Research Institute I think I saw I is
-across the street from El Camino is this
+I think SRI is across the street from El Camino,
 
 365
 00:40:05,010 --> 00:40:15,260
-pictorial structure model has less of a
-3d flavor but more of a probabilistic
+is this pictorial structure model. 
+It's very similar.. it focused.. it has less of 3d flavor,
+but more of a probabilistic flavor.
 
 366
 00:40:15,260 --> 00:40:21,570
-flavor is that the objects are made of a
-still simple part
+is that the objects are made of a still simple parts
 
 367
 00:40:21,570 --> 00:40:28,059
 like a person's head is made of eyes and
-nose or mouth and the parts were CuMn
+nose and mouth and the parts were connected
 
 368
 00:40:28,059 --> 00:40:34,679
-acted by springs allowing for some
-deformations getting a sense of ok we
+by springs allowing for some deformations.
+So, this is getting a sense of,
 
 369
 00:40:34,679 --> 00:40:40,069
-recognize the world not every one of you
-have exactly the same eyes in the
+okay, we recognize the world not every one of you
+have exactly the same eyes in the distance between the eyes.
 
 370
 00:40:40,070 --> 00:40:45,150
-distance between the eyes will allow for
-some kind of rare variability so this
+we allow for some kind of variability.
 
 371
 00:40:45,150 --> 00:40:50,450
-concept of variability start to get
-introduced in the model like this and
+So, this concept of variability start to get
+introduced in the model like this.
 
 372
 00:40:50,449 --> 00:40:56,309
-using models like this you know the
-reason I want to show you this is too to
+And using models like this you know the
+reason I want to show you this is to
 
 373
 00:40:56,309 --> 00:41:02,710
-see how simple the the worst was a tease
-this was one of the most influential
+see how simple the work was in the eighties.
+This was one of the most influential
 
 374
 00:41:02,710 --> 00:41:09,670
-model in the eighties recognizing
-real-world objects and the entire paper
+model in the eighties recognizing real-world objects
 
 375
 00:41:09,670 --> 00:41:18,900
-of real world is these seemingly users
+and the entire paper of real world is these seemingly users
 but the using the edges and simple
 
 376
