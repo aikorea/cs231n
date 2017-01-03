@@ -3,15 +3,15 @@ layout: page
 permalink: /neural-networks-2/
 ---
 
-Table of Contents:
+목차:
 
-- [Setting up the data and the model](#intro)
-  - [Data Preprocessing](#datapre)
-  - [Weight Initialization](#init)
-  - [Batch Normalization](#batchnorm)
+- [데이터와 모델 셋업하기](#intro)
+  - [데이터 처리](#datapre)
+  - [모수(paramter/weight) 초기화](#init)
+  - [배치 정규화(Batch Normalization)](#batchnorm)
   - [Regularization](#reg) (L2/L1/Maxnorm/Dropout)
-- [Loss functions](#losses)
-- [Summary](#summary)
+- [손실함수(Loss functions)](#losses)
+- [요약](#summary)
 
 <a name='intro'></a>
 ## Setting up the data and the model
