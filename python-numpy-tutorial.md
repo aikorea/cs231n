@@ -1090,5 +1090,5 @@ plt.show()
 
 ---
 <p style="text-align:right"><b>
-번역: 강상훈 <a href="https://github.com/sanghkaang" style="color:black">(sanghkaang)</a>
+번역: 강상훈 <a href="https://github.com/sanghunka" style="color:black">(sanghunka)</a>
 </b></p>
